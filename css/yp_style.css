@@ -1,0 +1,16 @@
+
+.yp_custompricing input, .yp_custompricing select {
+	width:100% !important;
+}
+
+.yp_custompricing {
+	display:none;
+}
+
+.sold-individually .add_to_cart_button {
+	display:none !important;
+}
+
+.single-product .product_cat-sod .single_add_to_cart_button, .single-product .product_cat-bulk .single_add_to_cart_button {
+	display:none;
+}
