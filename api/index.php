@@ -2,14 +2,10 @@
 
 // Sample Plugin & Theme API by Kaspars Dambis (kaspars@konstruktors.com)
 
-$url = 'https://sergiocutone.github.io/ypwp-shipping/ver.json';
-$content = file_get_contents($url);
-$json = json_decode($content);
-
-$packages['ypwp-shipping'] = array(
+$packages['ypwp-shipping-master'] = array(
 	'versions' => array(
-		$json->{'version'} => array(
-			'version' => $json->{'version'},
+		'2' => array(
+			'version' => '2',
 			'date' => '2017-02-14',
 			'package' => 'https://github.com/sergiocutone/ypwp-shipping/archive/master.zip'
 		)
