@@ -2,10 +2,8 @@
 
 $url = 'https://sergiocutone.github.io/ypwp-shipping/ver.json';
 $content = file_get_contents($url);
-$json = json_decode($content, true);
+$json = json_decode($content);
 
-foreach($json['version'] as $item) {
-	echo 'Version: '.$item['version'];
-}
+echo "version: ".$json->{'version'};
 
  ?>
