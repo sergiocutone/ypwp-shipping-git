@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: YPWP Shipping
+Plugin Name: YPWP Shipping Git
 Plugin URI:  https://google.com
 Description: YP Web Prestige Shipping
 Version:     1.0
