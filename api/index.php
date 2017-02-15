@@ -13,7 +13,7 @@ $packages['ypwp-shipping-master'] = array(
 	'versions' => array(
 		$versionstring => array(
 			'version' => $versionint,
-			'date' => '2017-02-14',
+			'date' => '2017-14-02',
 			'package' => 'https://github.com/sergiocutone/ypwp-shipping/archive/master.zip',
 			'tested' => $json->{'tested'}
 		)
