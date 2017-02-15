@@ -16,7 +16,7 @@ Domain Path: https://google.co
 if (is_admin()) {
 	require 'plugin-update-checker/plugin-update-checker.php';
 	$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-		'https://github.com/sergiocutone/ypwp-shipping-git',
+		'https://github.com/sergiocutone/ypwp-shipping-git/',
 		__FILE__,
 		'ypwp-shipping-git-master'
 		);
