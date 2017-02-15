@@ -9,10 +9,10 @@ $json = json_decode($content);
 $packages['ypwp-shipping-master'] = array(
 	'versions' => array(
 		$json->{'version'} => array(
-			'version' => $json->{'version'},
+			'version' => (int)$json->{'version'},
 			'date' => '2017-02-14',
 			'package' => 'https://github.com/sergiocutone/ypwp-shipping/archive/master.zip',
-			'tested' => $json->{'tested'}
+			'tested' => (int)$json->{'tested'}
 		)
 	),
 	'info' => array(
