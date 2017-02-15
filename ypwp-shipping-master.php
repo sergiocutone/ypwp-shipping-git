@@ -4,7 +4,7 @@
 Plugin Name: YPWP Shipping
 Plugin URI:  https://google.com
 Description: YP Web Prestige Shipping
-Version:     1.9
+Version:     1.0
 Author:      Web Prestige
 Author URI:  https://google.com
 License:     GPL2
@@ -14,7 +14,13 @@ Domain Path: https://google.co
 */
 
 if (is_admin()) {
-	require_once ("ypwp-checkupdate.php");
+	require 'plugin-update-checker/plugin-update-checker.php';
+	$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+		'https://github.com/user-name/repo-name/',
+		__FILE__,
+		'unique-plugin-or-theme-slug'
+		);
+
 	require ("ypwp-shippingadmin.php");
 }
 
