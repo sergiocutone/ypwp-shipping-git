@@ -18,7 +18,7 @@ if (is_admin()) {
 	$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 		'https://github.com/sergiocutone/ypwp-shipping-git',
 		__FILE__,
-		'ypwp-shipping-git'
+		'ypwp-shipping-git-master'
 		);
 
 	require ("ypwp-shippingadmin.php");
