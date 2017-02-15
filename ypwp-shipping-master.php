@@ -4,7 +4,7 @@
 Plugin Name: YPWP Shipping
 Plugin URI:  https://google.com
 Description: YP Web Prestige Shipping
-Version:     1.7
+Version:     1.8
 Author:      Web Prestige
 Author URI:  https://google.com
 License:     GPL2
