@@ -6,11 +6,12 @@ $url = 'https://sergiocutone.github.io/ypwp-shipping/ver.json';
 $content = file_get_contents($url);
 $json = json_decode($content);
 
-$versionint = (float) $json->{'version'}
+$versionstring = "/".$json->{'version'}."/";
+$versionint = (float) $json->{'version'};
 
 $packages['ypwp-shipping-master'] = array(
 	'versions' => array(
-		$json->{'version'} => array(
+		$versionstring => array(
 			'version' => $versionint,
 			'date' => '2017-02-14',
 			'package' => 'https://github.com/sergiocutone/ypwp-shipping/archive/master.zip',
